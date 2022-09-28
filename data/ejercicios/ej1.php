@@ -10,7 +10,7 @@
     <?php
     echo 'estoy en php (echo)<br>';
     print 'estoy en php(print)<br>';
-    
+    echo 'modificado en casa<br>';
     ?>
     <?="<h3>otra forma de hacer echo</h3>";?>
 </body>
