@@ -31,3 +31,21 @@ echo"<br>";
 //Para añadir un elemento a un array
 $array2[]=12;
 print_r($array2);
+echo"<br>";
+//Eliminar un elemento
+//Borramos la posicion 3
+unset($array2[3]);
+print_r($array2);
+echo"<br> Y la posicion 3? : " . $array2[3];
+$array2[]=99;
+echo"<br>";
+print_r($array2);
+$array2[3]=13;
+echo"<br>";
+print_r($array2);
+echo"<br>Y que tiene la posicion 3 : " . $array2[3] . "<br>";
+
+echo"Mostrar clave y valor del array<br>";
+foreach($array2 as $cla => $val){
+    echo "<br>Clave: " . $cla . " y Valor: " . $val;
+}
