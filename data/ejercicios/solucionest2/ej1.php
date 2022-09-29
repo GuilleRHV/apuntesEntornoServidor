@@ -1,2 +1,2 @@
 <?php
-echo "Soluciones ej1";
+echo "Soluciones ej1.";
