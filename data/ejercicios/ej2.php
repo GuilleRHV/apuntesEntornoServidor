@@ -77,16 +77,16 @@ echo "la variable 1 esta vacia: " . empty($var1) . "<br>";
         ---------------------------------------
         WHILE
         do()while
-
+        -----------------------------------------
         FOR
             for($i=0;$i<10;$i++){
                 $miarray[$i];
             }
 
-
+        --------------------------------------
         FOR EACH (SE USA MAS QUE EL FOR)
-        foreach($array as $elm){
-
+        foreach($array as &$elm){
+            echo "$elm";
         }
         */
 
